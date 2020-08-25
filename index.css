@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: rgb(209,255,203);
+}
+.nav {
+  background-color: rgb(22,38,42);
+}
+.nav ul {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  align-content: center;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+  margin: 9px;
+}
+li a:hover {
+  color: yellow;
+}
+.form-control {
+  margin: 7px;
+  padding: 9px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#btn {
+  margin: 9px;
+}
+
+/*
+.addbook {
+  width: 100%;
+  height: 53vh;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+*/
+
+.booking {
+  height: 55vh;
+  background-image: radial-gradient(#0d677e, #0867a2, #00ccff);
+display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+/*
+
+#btn {
+  padding: 9px;
+  border-radius: 9px;
+  outline: none;
+  background-color: rgb(55,12,121);
+  color: white;
+}
+*/
