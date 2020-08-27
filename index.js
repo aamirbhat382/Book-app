@@ -62,5 +62,5 @@ function deletebook(index) {
 }
 let dlt = document.getElementById("dlt");
 dlt.addEventListener("click", function(){
-  localStorage. clear();
+  alert("don't worry I will delete all")
 });
